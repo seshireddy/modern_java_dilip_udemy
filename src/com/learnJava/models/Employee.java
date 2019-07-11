@@ -1,5 +1,8 @@
 package com.learnJava.models;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Employee {
 	private String firstName;
 	private int age;
@@ -29,4 +32,7 @@ public class Employee {
 	public double getSalary() {
 		return salary;
 	}
+	public List<String> getActivities(){
+		return Arrays.asList("Photography","Swimming","Playing");
+	};
 }
