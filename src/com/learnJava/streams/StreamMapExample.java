@@ -1,4 +1,4 @@
-package com.learnJava.lambdas;
+package com.learnJava.streams;
 
 import java.util.Arrays;
 import java.util.List;
